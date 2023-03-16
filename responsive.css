@@ -1,16 +1,62 @@
-/*------------Untuk Tablet------------*/
-@media all and (max-width: 1000px){
-  header {
-    width: 75%
-  }
-}
+@media screen and (max-width: 565px) {   
 
-/*------------Untuk Smartphone------------*/
-@media all and (max-width: 670px){
-  header {
-    width: 50%
-  }
-  .header-right{
-    display: none;
-  }
+    .transbox {
+      margin: 0 10px;
+      margin-top: 300px;
+    }
+
+    .product {
+      width: 100%;
+    }
+
+    .product-wrapper {
+      padding-bottom: 1000px;
+    }
+
+    .top-wrapper {
+      text-align: left;
+    }
+
+    .top-wrapper p {
+      text-align: left;
+    }
+
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    header {
+      position: sticky;
+    }
+
+    .header-left .logo {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+    
+    .header-right a {
+      float: none;
+    }
+
+    .top-wrapper {
+        width: 100%;
+        background-size: cover;
+    }
+
+    input {
+      width: 300px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 20px;
+      font-size: 18px;
+      border-radius: 10px;
+    }
+
 }

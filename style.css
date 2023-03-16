@@ -1,4 +1,4 @@
-* {
+* { 
   box-sizing: border-box;
 }
 html, body,
@@ -16,27 +16,16 @@ a {
 }
 /*-----------------Header-----------------*/
 header {
-  height: 65px;
   width: 100%;
   background-color: #fef200;
   position: fixed;
-  top: 0;
   z-index: 10;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 7px;
-  padding-left: 5px;
-}
-
-.header-left {
+.header-left .logo {
   float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: 25px;
+  width: 124px;
+  padding: 10px
 }
 
 .header-right a {
@@ -44,7 +33,7 @@ header {
   padding: 0 25px;
   color: black;
   display: block;
-  float: left;
+  float: right;
   transition: all 0.5s;
 }
 
@@ -93,6 +82,7 @@ header {
   padding-right: 5%;
   background-color: #fef200;
   text-align: center;
+  height: auto;
 }
 
 .heading {
